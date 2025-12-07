@@ -586,5 +586,10 @@ main {
   margin-bottom: 0px;
 }
 .contact-infos{
-  margin-bottom:900px;
+ margin-bottom: -10px;
+
+}
+.w-100{
+  margin-bottom: -150px;
+
 }
