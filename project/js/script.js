@@ -10,11 +10,11 @@ $(window).on("scroll", function() {
 
 $(document).ready(function() {
     new Typed('#type-it', {
-        strings: ['student','I\' m a student','At IAP Dep','In Fssm'],
+        strings: ["I am a student", "At IAP Dep", "In FSSM..."],
         typeSpeed: 100,
+        backSpeed:100,
         loop: true,
     });
-
 
     $('.owl-carousel').owlCarousel({
         loop: true,
@@ -50,4 +50,4 @@ $(document).ready(function() {
         }
     });
 
-}); // Fin du $(document).ready
+}); 
